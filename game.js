@@ -25,7 +25,7 @@ $(document).keydown(function () {
   }
 });
 
-$("body").click(function () {
+$("#level-title").click(function () {
   if (!started) {
     $("#level-title").text(`Level ${level}`);
     nextSequence();
